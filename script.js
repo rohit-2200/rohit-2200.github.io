@@ -62,3 +62,36 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }));
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const skills = [
+    "Python","JavaScript","React.js","Node.js","PostgreSQL",
+    "Django","Azure","Agile Development","CI/CD","Software Optimization"
+  ];
+  let i = 0, j = 0;
+  const typedText = document.getElementById("typed-text");
+  const typeDelay = 100, eraseDelay = 50, pause = 1000;
+
+  function type() {
+    if (!typedText) return;
+    if (j < skills[i].length) {
+      typedText.textContent += skills[i].charAt(j++);
+      setTimeout(type, typeDelay);
+    } else {
+      setTimeout(erase, pause);
+    }
+  }
+  function erase() {
+    if (!typedText) return;
+    if (j > 0) {
+      typedText.textContent = skills[i].substring(0, j - 1);
+      j--;
+      setTimeout(erase, eraseDelay);
+    } else {
+      i = (i + 1) % skills.length;
+      setTimeout(type, typeDelay + 300);
+    }
+  }
+  if (typedText) setTimeout(type, pause + 250);
+});

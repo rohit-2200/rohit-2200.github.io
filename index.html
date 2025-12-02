@@ -21,7 +21,7 @@
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#experience">Experience</a>
-            <a href="#education">Education</a>
+            <a href="#education1">Education</a>
             <a href="#contactme">Contact</a>
         </nav>
         </div>
@@ -44,16 +44,22 @@
     <section id="home">
         <div class="home container">
             <div class="home-left">
-                <img src="/img/Web Development.gif">
+                <img src="/img/coding_hands_typing_cartoon_fast.gif">
             </div>
             <div class="home-right">
                 <h1>Hello, I'm Rohit Ravichandran</h1>
                 <h2>Full Stack developer</h2>
-                <h2>rrotating text</h2>
-            
+                
+                
+               <div class="rotating-text">
+                     <h2><span id="typed-text"></span><span id="cursor">|</span></h2>
+                </div>
+
+               
+               
                 <div class="home-button">
-                    <div class="hb1"><button href="#">Projects </button></div>
-                    <div class="hb2"><button href="#">Download Resume</button></div>
+                    <div class="hb1"><a href="#projects">PROJECTS </a></div>
+                    <div class="hb2"><a href="https://www.google.com" target="_blank " rel="noopener">DOWNLOAD RESUME</a></div>
                 </div>
             </div>
         </div>
@@ -63,7 +69,8 @@
         <div class="about container">
             <div class="about-left">
                 <div class="about-image">
-                    <img src="/img/imagedemo.jpg">
+                   
+                    <img src="/img/WhatsApp Image 2025-10-10 at 12.55.33 PM.jpeg">
                 </div>
                 <div class="skills-card">
                     <div class="skills-info">
@@ -71,7 +78,7 @@
                         <ul class="skills-list">
                         <li>HTML</li><li>CSS</li><li>JavaScript</li>
                         <li>React</li><li>Python</li><li>Django</li>
-                        <li>.NET</li><li>SQL</li><li>Azure</li>
+                        <li>.NET</li><li>SQL</li><li>Azure</li><li>c#</li><li>node.js</li><li>Pytest</li>
                         </ul>
                     </div>
                 </div>
@@ -79,16 +86,15 @@
             </div>
             <div class="about-right">
                 <div class="about-name">
+                    <h3>Meet Me :) </h3>
                     <h2>ROHIT RAVICHANDRAN</h2>
                     <h3>Full Stack Developer</h3>
                         <div class="summary-card">
                             <h3>SUMMARY</h3>  
-                            <p>MystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystory
-                                MystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystory
-                                MystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystory
-                                MystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystoryMystory
-                            </p>
-                            <a class="resume-btn" href="#" target="_blank" rel="noopener">Download Resume</a>
+                              <p>I'm a graduate student at Arizona State University, pursuing a Master’s in Computer Engineering (Computer Systems) and graduating in Spring 2026. I also hold a Bachelor’s degree in Computer Science with a specialization in Artificial Intelligence and Machine Learning.</p>
+                              <p>My experience spans machine learning and full-stack development, with internships at DRDO and Prag Robotics, where I worked on malware classification and stock market forecasting using Random Forest and SVM. Skilled in Python, JavaScript, PostgreSQL, and cloud technologies, I follow Agile and CI/CD practices while continuously improving my DSA and software optimization skills.</p>
+                              <p>Beyond academics, I enjoy driving, gaming, and listening to music, along with exploring emerging technologies that blend creativity with innovation. I’m seeking Software Development Engineer (SDE) internship opportunities for 2026, open to hybrid or relocation roles.</p>
+                            <a class="resume-btn" href="https://www.google.com" target="_blank" rel="noopener">Download Resume</a>
                             
                         </div>
                 </div>
@@ -104,42 +110,43 @@
         <div class="projects container">
             <h2 class="projects-title">PROJECTS</h2>
             <!--project one -->
+            <!--first project-->
             <article class="proj-card">
-                <img class="proj-thumb" src="/img/projectdemo.jpeg" alt="Location-Based To-Do">
+                <img class="proj-thumb" src="/img/project1.png" alt="Location-Based To-Do Web App">
                 <div class="proj-content">
-                    <h3 class="proj-title">Location-Based To-Do</h3>
+                    <h3 class="proj-title">Location-Based To-Do List Web App</h3>
                     <p class="proj-desc">
-                    sample project sample project sample project sample project sample project sample project sample project sample project 
-                    sample project sample project sample project sample project sample project sample project sample project sample project sample project 
-                    sample project sample project sample project sample project sample project sample project sample project 
+                    Currently developing a location-aware to-do list web app that turns geolocation into actionable reminders. The backend is powered by PostgreSQL and integrates the Google Maps JavaScript API for real-time geofencing and smart task notifications. 
+                    Designed a normalized database schema with indexed queries for scalability and implemented secure REST endpoints with input validation and Jest testing. 
+                    The app features a responsive, user-friendly interface aimed at helping users stay organized and boost productivity by automating reminders based on their location.
+                    
                     </p>
-                    <a class="proj-btn" href="#" target="_blank" rel="noopener">View Project</a>
+                    <a class="proj-btn" href="https://github.com/rohit-2200" target="_blank" rel="noopener">View Project</a>
                 </div>
             </article>
-
+<!--first project-->
             <article class="proj-card">
-                <img class="proj-thumb" src="/img/projectdemo.jpeg" alt="Location-Based To-Do">
+                <img class="proj-thumb" src="/img/project2.png" alt="Youtube Front-End Clone">
                 <div class="proj-content">
-                    <h3 class="proj-title">Location-Based To-Do</h3>
+                    <h3 class="proj-title">Youtube Front-End Clone </h3>
                     <p class="proj-desc">
-                    sample project sample project sample project sample project sample project sample project sample project sample project 
-                    sample project sample project sample project sample project sample project sample project sample project sample project sample project 
-                    sample project sample project sample project sample project sample project sample project sample project 
+                    Developed a front-end recreation of the YouTube interface using HTML5 and modern CSS3 to replicate its layout, responsiveness, and interactive design. 
+                    Created reusable components such as navigation menus, video cards, and search bars for modularity and scalability.
+                     Utilized Flexbox and CSS Grid for precise alignment and responsive behavior across devices, ensuring a smooth and consistent user experience. Focused on clean, semantic code and intuitive UI design to closely mirror the look and feel of the original platform.
                     </p>
-                    <a class="proj-btn" href="#" target="_blank" rel="noopener">View Project</a>
+                    <a class="proj-btn" href="https://github.com/rohit-2200/youtube-clone-" target="_blank" rel="noopener">View Project</a>
                 </div>
             </article>
-
+<!--first project-->
             <article class="proj-card">
-                <img class="proj-thumb" src="/img/projectdemo.jpeg" alt="Location-Based To-Do">
+                <img class="proj-thumb" src="/img/project 3.png" alt="Car Price Prediction Using Machine Learning">
                 <div class="proj-content">
-                    <h3 class="proj-title">Location-Based To-Do</h3>
+                    <h3 class="proj-title">Car Price Prediction using Machine Learning</h3>
                     <p class="proj-desc">
-                    sample project sample project sample project sample project sample project sample project sample project sample project 
-                    sample project sample project sample project sample project sample project sample project sample project sample project sample project 
-                    sample project sample project sample project sample project sample project sample project sample project 
+                    Developed a machine learning model to predict car prices based on key market and vehicle parameters. 
+                    Implemented regression algorithms including Random Forest, XGBoost, and Gradient Boosting, achieving a top R² score of 95.5% with Random Forest. Performed data preprocessing, feature engineering, and exploratory data analysis (EDA) to enhance model accuracy and reliability. Built the pipeline using Python, Pandas, NumPy, and Scikit-learn, enabling practical applications in price estimation, insurance valuation, and loan risk assessment.
                     </p>
-                    <a class="proj-btn" href="#" target="_blank" rel="noopener">View Project</a>
+                    <a class="proj-btn" href="https://github.com/rohit-2200/Car-price-prediction" target="_blank" rel="noopener">View Project</a>
                 </div>
             </article>
 
@@ -153,18 +160,34 @@
             </div>
             <div class="experience-list">
                 <article class="experience-card">
-                    <img class="experience" src="/img/projectdemo.jpeg" alt="Company 1">
+                    <img class="experience" src="/img/drdo_logo.jpg" alt="Company 1">
                     <div class="experience-body">
-                    <h3>Software Engineer Intern — Company 1</h3>
-                    <p class="experience-details">May 2025 - Aug 2025 • Remote</p>
+                    <h3>Machine Learning Traineeship - SAG,DRDO, New Delhi, India </h3>
+                    <p class="experience-details">May 2023 - JULY 2023 • ON-SITE</p>
+                    <p>Gained hands-on experience in developing and optimizing machine learning models for malware classification using the EMBER dataset. 
+                        Learned to strengthen model reliability through advanced evaluation, ensemble techniques, and adversarial robustness testing.</p>
                     <ul>
-                        <li>sample descriptionsample descriptionsample description</li>
-                        <li>sample descriptionsample descriptionsample descriptionsample description</li>
-                        <li>sample descriptionsample descriptionsample descriptionsample descriptionsample description</li>
+                        <li>Implemented and tested Random Forest, SVM, and CNN models for malware detection.</li>
+                        <li>Improved model resilience with ensemble learning and retraining strategies.</li>
+                        <li>Enhanced understanding of accuracy, precision, recall, and F1 score optimization.</li>
                     </ul>
                     </div>
                 </article>
                 <article class="experience-card">
+                    <img class="experience" src="/img/internship.png" alt="Company 1">
+                    <div class="experience-body">
+                    <h3>Machine Learning Intern - PRAG ROBOTICS, Chennai, India</h3>
+                    <p class="experience-details">JAN 2023 - MAR 2023 • Remote</p>
+                    <p>At Prag Robotics, worked on developing machine learning models for stock market forecasting to identify pricing trends and provide actionable insights. 
+                        Focused on improving model performance through data preprocessing, feature engineering, and hyperparameter tuning, while integrating real-time data sources to ensure reliable and timely predictions.</p>
+                    <ul>
+                        <li>Applied Random Forest for market and price forecasting, improving short-term trend predictions.</li>
+                        <li>Integrated APIs for real-time stock and livestock data, increasing data timeliness and model responsiveness.</li>
+                        <li>Utilized Python, Scikit-learn, and TensorFlow for data analysis and predictive model optimization.</li>
+                    </ul>
+                    </div>
+                </article>
+                <!--<article class="experience-card">
                     <img class="experience" src="/img/projectdemo.jpeg" alt="Company 1">
                     <div class="experience-body">
                     <h3>Software Engineer Intern — Company 1</h3>
@@ -175,57 +198,53 @@
                         <li>sample descriptionsample descriptionsample descriptionsample descriptionsample description</li>
                     </ul>
                     </div>
-                </article>
-                <article class="experience-card">
-                    <img class="experience" src="/img/projectdemo.jpeg" alt="Company 1">
-                    <div class="experience-body">
-                    <h3>Software Engineer Intern — Company 1</h3>
-                    <p class="experience-details">May 2025 - Aug 2025 • Remote</p>
-                    <ul>
-                        <li>sample descriptionsample descriptionsample description</li>
-                        <li>sample descriptionsample descriptionsample descriptionsample description</li>
-                        <li>sample descriptionsample descriptionsample descriptionsample descriptionsample description</li>
-                    </ul>
-                    </div>
-                </article>
+                </article>-->
 
             </div>
-            <div class="education">
-                <div class="eduction-title">
-                    <h2>Education</h2>
-                </div>
-                <div class="education-list">
-                    <article class="education-card">
-                        <img class="education-logo" src="/img/projectdemo.jpeg" alt="ASU">
-                        <div class="education-body">
-                        <h3>Arizona State University</h3>
-                        <p class="education-details">MS — Computer Science • 2024 - 2026</p>
-                        <ul>
-                            <li>Coursework: Algorithms, Full-Stack, ML, Cloud.</li>
-                            <li>Clubs/Projects: Developer Student Club, Hackathons.</li>
-                        </ul>
-                        </div>
-                    
-                    </article>
-                    <article class="education-card">
-                        <img class="education-logo" src="/img/projectdemo.jpeg" alt="ASU">
-                        <div class="education-body">
-                        <h3>Arizona State University</h3>
-                        <p class="education-details">MS — Computer Science • 2024 - 2026</p>
-                        <ul>
-                            <li>Coursework: Algorithms, Full-Stack, ML, Cloud.</li>
-                            <li>Clubs/Projects: Developer Student Club, Hackathons.</li>
-                        </ul>
-                        </div>
-                    </article>
-                </div>
-            </div>
-
         </div>
-
-
-
     </section>
+
+
+
+    <section id="education1">
+        <div class="education">
+            <div class="eduction-title">
+                <h2>Education</h2>
+            </div>
+            <div class="education-list">
+                <article class="education-card">
+                    <img class="education-logo" src="/img/ASU-Logo.jpg" alt="ASU">
+                    <div class="education-body">
+                    <h3>ARIZONA STATE UNIVERSITY, Tempe,Arizona, United States</h3>
+                    <p class="education-details">MS — Computer Engineering(Computer Systems) • 2024 - 2026</p>
+                    <ul>
+                        <li>Coursework: Foundations of Algorithms, Data Mining, ML, Cloud, Computer Network.</li>
+                        <!--<li>Projects: Developer Student Club, Hackathons.</li>-->
+                    </ul>
+                    </div>
+                    
+                </article>
+                <article class="education-card">
+                    <img class="education-logo" src="/img/srm-institute-of-science-and-technology-logo-png_seeklogo-381994.png" alt="ASU">
+                    <div class="education-body">
+                        <h3>SRM INSTITUTE OF SCIENCE AND TECHNOLOGY, CHENNAI , INDIA</h3>
+                        <p class="education-details">Btech — Computer Science in specilization with AI and ML• 2020 - 2024</p>
+                        <ul>
+                            <li>Coursework: Algorithms ,Data Structures, Operating Systems, AIML, Cloud Computing,Computer Network .</li>
+                            <li>Clubs/Projects: CodeChef Coding Club, Abinitio 2.0 2023 Hackathon.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+        
+
+
+
+    
     <section id="contactme">
         <div class="contact container">
             <div class="contactme">
@@ -235,31 +254,32 @@
             <div class="contact-cards">
                  <article class="info-card">
                     <div class="icon">
-                        <img src="/img/mailldemo.png">
+                        <img src="/img/phone.png">
                     </div>
-                    <h3>Email</h3>
-                    <p>rravic17@asu.edu</p>
+                    <h3>Phone</h3>
+                    <p>+1(480)915-4559</p>
                 </article>
                 <article class="info-card">
                     <div class="icon">
-                        <img src="img/gmail.png">
+                        <img src="img/mailldemo.png">
                     </div>
                     <h3>Email</h3>
                     <p>rravic17@asu.edu</p>
+                    <p>rrk1687@gmail.com</p>
                 </article>
                 <article class="info-card">
                     <div class="icon">
-                        <img src="img/gmail.png">
+                        <img src="img/linkedindemo.png">
                     </div>
-                    <h3>Email</h3>
-                    <p>rravic17@asu.edu</p>
+                    <h3>LinkedIn</h3>
+                    <p>https://www.linkedin.com/in/r-r-263794266/</p>
                 </article>
                 <article class="info-card">
                     <div class="icon">
-                        <img src="img/gmail.png">
+                        <img src="img/github.png">
                     </div>
-                    <h3>Email</h3>
-                    <p>rravic17@asu.edu</p>
+                    <h3>GitHub</h3>
+                    <p>https://github.com/rohit-2200</p>
                 </article>
             </div>
         </div>
@@ -272,10 +292,10 @@
             </div>
 
             <div class="footer-icons">
-            <a href="#"><img src="img/gmail.png" alt="Gmail"></a>
-            <a href="#"><img src="img/linkedin.png" alt="LinkedIn"></a>
-            <a href="#"><img src="img/github.png" alt="GitHub"></a>
-            <a href="#"><img src="img/resume.png" alt="Resume"></a>
+            <a href="mailto:rrk1687@gmail.com"><img src="img/mailldemo.png" alt="Gmail"></a>
+            <a href="tel:+1(480)915-4559"><img src="img/phone.png" alt="Phone"></a>
+            <a href="https://github.com/rohit-2200" target="_blank" rel="noopener"><img src="img/github.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/r-r-263794266/" target="_blank" rel="noopener"><img src="img/linkedindemo.png" alt="LinkedIn"></a>
             </div>
 
             <p class="footer-note">Made with ❤️ by ROHIT in AZ, UNITED STATES</p>
